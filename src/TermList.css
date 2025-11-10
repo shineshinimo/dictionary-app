@@ -6,3 +6,17 @@
     flex-direction: column;
     gap: 8px;
 }
+
+@keyframes appearance {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.term-list__item {
+    animation: appearance .5s;
+}
