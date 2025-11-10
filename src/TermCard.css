@@ -15,3 +15,13 @@
     font-size: 16px;
     margin: 0;
 }
+
+.term-card__delete {
+    background-color: #ff9999;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    width: fit-content;
+    align-self: flex-end;
+    cursor: pointer;
+}
