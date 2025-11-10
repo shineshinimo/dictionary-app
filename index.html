@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div class="dictionary">
+      <h1 class="dictionary-header">
+        Dictionary
+      </h1>
+
+      <form class="form" id="add-description">
+        <h2 class="form-title">
+          New term
+        </h2>
+
+        <label class="form-field">
+          <span class="form-field__label">
+            Term
+          </span>
+          <input type="text" class="form-field__input" name="title" required>
+        </label>
+
+        <label class="form-field">
+          <span class="form-field__label">
+            Meaning
+          </span>
+          <input type="text" class="form-field__input" name="description" required>
+        </label>
+
+        <button class="form-button" type="submit">
+          Remember this term
+        </button>
+      </form>
+
+      <div id="description-list"></div>
+    </div>
+
+    <script type="module" src="./src/main.jsx"></script>
+  </body>
+</html>
