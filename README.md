@@ -34,7 +34,7 @@ src/
 
 1. **Clone the repository**
    ```bash
-   https://github.com/shineshinimo/dictionary-app.git
+   git clone https://github.com/shineshinimo/dictionary-app.git
    cd dictionary-app
    ```
 
